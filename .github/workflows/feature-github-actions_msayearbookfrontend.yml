@@ -39,5 +39,5 @@ jobs:
         app-name: msayearbookfrontend
         slot-name: Production
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1ADA469BC84D46D39E8C44F1803E961D }}
-        package: .
+        package: "./frontend/build"
 
